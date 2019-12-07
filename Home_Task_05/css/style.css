@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+	header{
+		background-color: #F03A17;
+	}
+	.wrapper {
+		overflow: hidden;
+		width: 80%;
+		margin: 0 auto; 
+	}
+
+	.logo {
+		width: 17%;
+		float: left;
+	}
+	.logo img{
+		width: 90%;
+		} 
+
+		.menu {
+			width: 70%;
+			float: right;
+			    margin-top: 12px;
+		}
+
+		.menu ul{
+
+			float: right;
+		}
+		.menu ul li{
+			list-style: none;
+			float: left;
+		}
+		.menu ul li a{
+			text-decoration: none;
+			color: white;
+			font-size: 18px;
+			transition:.5s;
+			padding: 0 20px;
+			display: block;
+			
+			
+		}
+		
+		.menu ul li a:hover{
+
+			color:#000000;
+		}
+		
+/*Header end*/

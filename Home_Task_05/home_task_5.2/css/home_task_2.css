@@ -1,0 +1,67 @@
+*{ /*Its all*/
+	margin: 0;
+	padding: 0;
+}
+
+	header
+	{
+		background-color: #2D355A;
+	}
+	.wrapper {
+		overflow: hidden;
+		/*border: 2px dotted yellow;*/
+		width: 71%;
+		margin: 0 auto; 
+	}
+
+	.logo {
+		width: 20%;
+         margin-top: 9px;
+		/*border:1px dotted red;*/
+		float: left;
+	}
+	.logo img{
+		width: 100%;
+		    margin: 12px;
+		} /*Using decendent selector*/
+
+		.menu {
+			width: 70%;
+			/*border:1px dotted red;*/
+			float: right;
+			margin-top: 34px;
+		}
+
+		.menu ul{
+
+			float: right;
+		}
+		.menu ul li{
+			list-style: none;
+			float: left;
+		}
+		.menu ul li a{
+			text-decoration: none;
+            color: A3ABCF;
+            font-size: 16px;
+            transition: .6s;
+            padding: 0 18px;
+            display: block;
+		
+			
+		}
+		.menu ul li:last-child a
+		{
+			padding-right: 0;
+		}
+		.menu ul li a:hover{
+
+			color:white;
+		}
+		
+/*Header end*/
+
+.source img{
+	border: 2px dotted white;
+	    margin: 73px;
+}
